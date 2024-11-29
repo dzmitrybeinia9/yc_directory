@@ -7,3 +7,5 @@ https://authjs.dev/getting-started/providers/github
 
 ![img.png](img.png)
 
+npm i tailwindcss-animate
+npm i @tailwindcss/typography
