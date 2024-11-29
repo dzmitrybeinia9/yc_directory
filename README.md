@@ -9,3 +9,5 @@ https://authjs.dev/getting-started/providers/github
 
 npm i tailwindcss-animate
 npm i @tailwindcss/typography
+
+npx shadcn@latest init
