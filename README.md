@@ -11,3 +11,4 @@ npm i tailwindcss-animate
 npm i @tailwindcss/typography
 
 npx shadcn@latest init
+npx shadcn@latest add button
