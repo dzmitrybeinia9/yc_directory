@@ -4,6 +4,7 @@ import {EyeIcon} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
+import {StartupCardType} from '../app/(root)/page'
 
 const StartupCard = ({post}: { post: StartupCardType }) => {
     const {author: {_id : authorId, name}, views, _createdAt, _id, title, description, image, category} = post;

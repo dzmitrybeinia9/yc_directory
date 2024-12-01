@@ -38,7 +38,7 @@ export default async function Home({searchParams}: {
                 <ul className={"mt-7 card_grid"}>
                     {posts?.length > 0 ?
                         (
-                            posts.map((post: StatupCardType, index: number) => (
+                            posts.map((post: StartupCardType) => (
                                 <StartupCard key={post?._id} post={post}/>
                             ))
                         ) : (
@@ -49,4 +49,18 @@ export default async function Home({searchParams}: {
             </section>
         </>
     );
+}
+
+export type StartupCardType = {
+    _createdAt: Date;
+    _id: string;
+    views: number;
+    description: string;
+    author: {
+        _id: string;
+        name: string;
+    },
+    image: string;
+    title: string;
+    category: string;
 }
