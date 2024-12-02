@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f402460c-b11f-41b0-9225-eaf241a34789" name="Changes" comment="" />
+    <list default="true" id="f402460c-b11f-41b0-9225-eaf241a34789" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Ping.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/View.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +76,7 @@
       <workItem from="1732870735620" duration="18819000" />
       <workItem from="1732978532980" duration="10000" />
       <workItem from="1733037053479" duration="15413000" />
+      <workItem from="1733164966630" duration="3395000" />
     </task>
     <servers />
   </component>
