@@ -12,3 +12,6 @@ npm i @tailwindcss/typography
 
 npx shadcn@latest init
 npx shadcn@latest add button
+
+npm create sanity@latest -- --project [project id] --dataset production --template clean
+npm i next-sanity@canary
