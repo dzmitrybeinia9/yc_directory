@@ -19,3 +19,5 @@ npm i sanity-plugin-markdown
 npx sanity@latest schema extract --path=./sanity/extract.json
 
 npx sanity@latest typegen generate
+
+npm i server-only

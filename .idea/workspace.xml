@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f402460c-b11f-41b0-9225-eaf241a34789" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sanity-typegen.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/schemaTypes/author.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/schemaTypes/startup.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StartupCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StartupCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemaTypes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemaTypes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/structure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/structure.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/live.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/live.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +74,7 @@
       <updated>1732870734526</updated>
       <workItem from="1732870735620" duration="18819000" />
       <workItem from="1732978532980" duration="10000" />
-      <workItem from="1733037053479" duration="13219000" />
+      <workItem from="1733037053479" duration="14846000" />
     </task>
     <servers />
   </component>
