@@ -1,24 +1,13 @@
 import SearchForm from "@/components/SearchForm";
-import StartupCard from "@/components/StartupCard";
+import StartupCard, {StartupCardType} from "@/components/StartupCard";
+import {client} from "@/sanity/lib/client";
+import {STARTUPS_QUERY} from "@/sanity/lib/queries";
 
 export default async function Home({searchParams}: {
     searchParams: Promise<{ query?: string }>
 }) {
     const query = (await searchParams).query;
-
-    const posts = [{
-        _createdAt: new Date(),
-        _id: "1",
-        views: 100,
-        description: "A platform for developers to showcase their projects and get feedback.",
-        author: {
-            _id: "1",
-            name: "John Doe"
-        },
-        image: 'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
-        title: "DevHub",
-        category: "Tech"
-    }];
+    const posts = await client.fetch(STARTUPS_QUERY);
 
     return (
         <>
@@ -49,18 +38,4 @@ export default async function Home({searchParams}: {
             </section>
         </>
     );
-}
-
-export type StartupCardType = {
-    _createdAt: Date;
-    _id: string;
-    views: number;
-    description: string;
-    author: {
-        _id: string;
-        name: string;
-    },
-    image: string;
-    title: string;
-    category: string;
 }

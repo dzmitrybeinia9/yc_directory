@@ -15,3 +15,7 @@ npx shadcn@latest add button
 
 npm create sanity@latest -- --project [project id] --dataset production --template clean
 npm i next-sanity@canary
+npm i sanity-plugin-markdown
+npx sanity@latest schema extract --path=./sanity/extract.json
+
+npx sanity@latest typegen generate
