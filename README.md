@@ -21,3 +21,6 @@ npx sanity@latest schema extract --path=./sanity/extract.json
 npx sanity@latest typegen generate
 
 npm i server-only
+
+npx shadcn@latest add input textarea toast
+npm i @uiw/react-md-editor
