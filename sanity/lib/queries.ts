@@ -58,3 +58,16 @@ export const AUTHOR_BY_GITHUB_ID_QUERY = defineQuery(`
       bio
   }
 `);
+
+export const AUTHOR_BY_NAME_QUERY = defineQuery(`
+     *[_type == "author" &&
+  name == $name][0] {
+      _id,
+      id,
+      name,
+      username,
+      email,
+      image,
+      bio
+  }
+`);
