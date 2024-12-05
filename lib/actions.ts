@@ -5,7 +5,7 @@ import { parseServerActionResponse } from "@/lib/utils";
 import slugify from "slugify";
 import { writeClient } from "@/sanity/lib/write-client";
 import {client} from "@/sanity/lib/client";
-import {AUTHOR_BY_NAME_QUERY, STARTUP_BY_ID_QUERY} from "@/sanity/lib/queries";
+import {AUTHOR_BY_NAME_QUERY} from "@/sanity/lib/queries";
 
 export const createPitch = async (
     form: FormData,

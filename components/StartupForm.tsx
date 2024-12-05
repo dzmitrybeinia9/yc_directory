@@ -44,9 +44,9 @@ const StartupForm = () => {
             return result;
         } catch (error) {
             if (error instanceof z.ZodError) {
-                const fieldErorrs = error.flatten().fieldErrors;
+                const fieldErrors = error.flatten().fieldErrors;
 
-                setErrors(fieldErorrs as unknown as Record<string, string>);
+                setErrors(fieldErrors as unknown as Record<string, string>);
 
                 toast({
                     title: "Error",
